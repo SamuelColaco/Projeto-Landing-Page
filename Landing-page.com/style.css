@@ -1,0 +1,146 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+
+
+    font-size: 62.5%;
+
+
+}
+body{
+    font-size: 1.6rem;
+    background-color: #FFFFFF;
+    margin: 6rem 23rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header h1{
+    font-size: 2.2rem;
+    font-family: 'Inter', sans-serif;
+    color: #89C5CC;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    font-size: 1.75rem;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 400;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    gap: 22rem;
+    margin-top: 5rem;
+}
+.texts{
+    width: 40rem;
+    font-weight: mixed;
+    font-family: 'Mulish',sans-serif;
+    max-width: 100%;
+}
+.texts h1{
+    margin-bottom: 3rem;
+    font-size: 3.9rem;
+    font-size: 400;
+   
+}
+.texts h1 strong{
+    color: #89C5CC;
+}
+
+.texts p b{
+    color: #7D7987;
+}
+.texts p{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    
+}
+.texts button{
+    display: flex;
+    align-items: center;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: medium;
+    background-color: #69B99D;
+    padding: 1.5rem 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+    color:#F9F9F9 ;
+    font-size: 2rem;
+    
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.texts button:hover{
+
+    background-color: #4c9d81;
+}
+
+ion-icon{
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+footer{
+    display: grid;
+    place-content: center;
+    font-size: 1.6rem;
+
+    margin-top: 10rem;
+    
+    
+}
+
+@media (max-width:426px){
+body{
+    margin: 2rem 10rem;
+    margin: auto;
+}
+header h1{
+    margin-left: 1rem;
+}
+.links{
+    gap: 4rem;
+    margin-right: 2rem;
+}
+.contents{
+    display: block;
+    text-align: center;
+}
+.contents button{
+    margin: auto;
+}
+
+}
+@media (max-width:376px){
+    header h1{
+        margin-right: 5rem;
+    }
+}
+@media (max-width: 320px){
+    header h1{
+        margin-right: 4rem;
+    }
+    .texts{
+        margin-left: 3rem;
+    }
+    footer{
+        margin-left: 6rem; 
+    }
+}
